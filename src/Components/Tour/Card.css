@@ -1,0 +1,155 @@
+.container {
+  font-family: IRANSans;
+  background: #7ec856;
+  padding-bottom: 233px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  color: #666;
+  padding: 26px;
+  margin-bottom: 50px;
+  font-family: IRANSans;
+}
+.container > p {
+  font-size: 20px;
+  color: #666;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+.tour__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tour__tabs {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+.tour__tabs .nav-tabs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  list-style: none;
+}
+.tour__tabs .nav-tabs > li {
+  width: 10.5%;
+  margin: 5px auto;
+  padding: 10px;
+  text-align: center;
+}
+.tour__tabs .nav-tabs > li:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+.tour__tabs .nav-tabs > li a {
+  text-decoration: none;
+  color: #fff;
+}
+.tab-content {
+  margin-top: -200px;
+  width: 100%;
+}
+.tab-pane {
+  box-shadow: 0 3px 15px rgba(41, 45, 49, 0.15);
+  background: #fff;
+  border-radius: 5px;
+}
+.tab-header {
+  background: #f6f7fb;
+  padding: 25px 15px;
+  border-bottom: 1px solid #eceffa;
+  box-shadow: 0 1px 3px rgba(2, 2, 2, 0.1);
+  border-radius: 5px 5px 0 0;
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab-header .tab-text {
+  color: #666;
+  font-size: 16px;
+  font-family: IRANSans;
+}
+.tab-sort-filter {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.selectTours {
+  position: relative;
+  display: inline-block;
+}
+
+.tab-sort-input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  padding-left: 40px;
+  border: 1px solid #e1e1e1;
+  font-family: IRANSans;
+  margin-right: 10px;
+}
+.tabs-content {
+  padding: 40px 30px;
+  display: block;
+  text-align: center;
+}
+
+.tabs-content ul {
+  list-style: none;
+}
+
+.tabs-content ul > li {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-right: 5px solid transparent;
+  font-size: 13px;
+  font-family: IRANSans;
+  transition: all 0.3s ease-out;
+}
+.tabs-content ul > li:hover {
+  border: 1px solid rgba(2, 2, 2, 0.2);
+  border-right: 5px solid #11a4d2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.tabs-content ul > li a {
+  text-decoration: none;
+  color: #666;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.tabs-content ul > li a span {
+  color: blue;
+}
+.more-tour-button {
+  margin-top: 30px;
+}
+@media screen and (max-width: 960px) {
+  .tour__tabs .nav-tabs > li {
+    width: 25%;
+  }
+  .tabs-content ul > li a {
+    flex-flow: column;
+    align-items: center;
+    font-size: 18px;
+  }
+  .tabs-content ul > li a p {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.signup-container {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.signup-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+}
+.text-input {
+  width: 500px;
+  padding: 14px 0;
+  border: none;
+  background: #fff;
+  border: 1px solid #e1e5ee;
+  border-radius: 3px;
+  box-shadow: 0 6px 20px rgba(24, 104, 188, 0.07);
+  padding-right: 15px;
+  color: #666;
+  font-size: 17px;
+  outline: none;
+  font-family: IRANSans;
+  margin-top: 25px;
+}

@@ -1,0 +1,73 @@
+:root {
+  --primary: #fff;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: IRANSans;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+.btn--special {
+  background-color: var(--primary);
+  color: #666;
+  border: 1px solid #cccccc;
+}
+.btn--search {
+  background: #ffc52b;
+  color: #fff;
+  border: 1px solid #ffc52b;
+  box-shadow: 2px 2px 30px rgba(255, 197, 43, 0.35);
+}
+.btn--tour {
+  padding: 20px 55px;
+  background-color: #4186f7;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  word-break: break-all;
+}
+.btn--search--place {
+  border: 0;
+  padding: 20px;
+  border-radius: 5px 0 0 5px;
+  background: #7ec856;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #7ec856;
+  box-shadow: 0 0 20px rgba(24, 104, 188, 0.07);
+}
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+/* .btn--large:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  } */

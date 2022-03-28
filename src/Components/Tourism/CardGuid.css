@@ -1,0 +1,77 @@
+.cards {
+  padding: 4rem;
+  background: #fff;
+  font-family: IRANSans;
+}
+
+.cards > h1 {
+  text-align: center;
+  font-size: 26px;
+  color: #666;
+}
+.cards > p {
+  font-size: 20px;
+  color: #666;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__item {
+  margin-bottom: 24px;
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+}
+.compare-item {
+  border: 1px solid #e2dddb;
+  border-radius: 3px;
+  position: relative;
+  padding: 0 30px;
+  width: 100%;
+}
+.compare-image-list {
+  text-align: center;
+}
+.compare-image-list > img {
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+.compere-item-title {
+  margin-bottom: 8px;
+  color: #4285f4;
+  font-size: 14px;
+}
+.compere-item-exp {
+  color: #8d8d8d;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2.5rem;
+  }
+}

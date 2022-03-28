@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home,
+.tourism,
+.products,
+.sign-up {
+  display: flex;
+  height: 92vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tourism {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  font-family: IRANSans;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  font-size: 26px;
+}
+.tourism > p {
+  color: #ffffff;
+  font-size: 32px;
+  margin-top: 8px;
+}
+.tourism-box {
+  margin-top: 32px;
+}
+.products {
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+.products h1 {
+  color: #fff;
+  font-size: 24px;
+  font-family: IRANSans;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
