@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/travel/static/css/main.66556f5d.css",
-    "main.js": "/travel/static/js/main.1e620e46.js",
-    "static/js/787.8a220983.chunk.js": "/travel/static/js/787.8a220983.chunk.js",
-    "static/media/IRANSans.ttf": "/travel/static/media/IRANSans.b405362106aecf6bb79b.ttf",
-    "index.html": "/travel/index.html",
-    "main.66556f5d.css.map": "/travel/static/css/main.66556f5d.css.map",
-    "main.1e620e46.js.map": "/travel/static/js/main.1e620e46.js.map",
-    "787.8a220983.chunk.js.map": "/travel/static/js/787.8a220983.chunk.js.map"
+    "main.css": "/tarvel/static/css/main.2c97c85d.css",
+    "main.js": "/tarvel/static/js/main.ac0b9dcf.js",
+    "static/js/787.8a220983.chunk.js": "/tarvel/static/js/787.8a220983.chunk.js",
+    "static/media/IRANSans.ttf": "/tarvel/static/media/IRANSans.b405362106aecf6bb79b.ttf",
+    "index.html": "/tarvel/index.html",
+    "main.2c97c85d.css.map": "/tarvel/static/css/main.2c97c85d.css.map",
+    "main.ac0b9dcf.js.map": "/tarvel/static/js/main.ac0b9dcf.js.map",
+    "787.8a220983.chunk.js.map": "/tarvel/static/js/787.8a220983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66556f5d.css",
-    "static/js/main.1e620e46.js"
+    "static/css/main.2c97c85d.css",
+    "static/js/main.ac0b9dcf.js"
   ]
 }
