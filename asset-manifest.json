@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/travel/static/css/main.66556f5d.css",
+    "main.js": "/travel/static/js/main.1e620e46.js",
+    "static/js/787.8a220983.chunk.js": "/travel/static/js/787.8a220983.chunk.js",
+    "static/media/IRANSans.ttf": "/travel/static/media/IRANSans.b405362106aecf6bb79b.ttf",
+    "index.html": "/travel/index.html",
+    "main.66556f5d.css.map": "/travel/static/css/main.66556f5d.css.map",
+    "main.1e620e46.js.map": "/travel/static/js/main.1e620e46.js.map",
+    "787.8a220983.chunk.js.map": "/travel/static/js/787.8a220983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66556f5d.css",
+    "static/js/main.1e620e46.js"
+  ]
+}
